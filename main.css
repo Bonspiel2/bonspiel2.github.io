@@ -6,6 +6,9 @@
 h1{
 	font: bold 20px Tahoma;
 }
+h2{
+	font: bold 15px Tahoma;
+}
 header, section, footer, aside, nav, article{          /*for lame browsers*/
 	display:block;
 }
@@ -77,9 +80,14 @@ a.selected{
 }
 
 #articleText {
-	background: #F5F5F5;
-	display: inline-block;
-	text-align: right;
+	background: #FFFFFF;
+	text-align: left;
+}
+
+#tableauHeader {
+	background: #FFFFFF;
+	text-align: left;
+	font: bold 15px Tahoma;
 }
 article {
 	background: #F5F5F5;
@@ -92,7 +100,7 @@ article footer{
 }
 a{
 	text-decoration: none;
-	color: #D9DADC;
+	color: black;
 }
 
 /* animated spoiler CSS by Bloggersentral.com */
